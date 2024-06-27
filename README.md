@@ -23,6 +23,8 @@ to a minimum and the implementation as straightforward as possible.
     &lt;Prompt v-if="item.props.prompt" :item="item"/&gt;
     &lt;Notification v-else :item="item"/&gt;
   &lt;/Notivue&gt;
+
+  #props is a native option for Push component from Notivue
   
     
 </pre>
@@ -33,6 +35,7 @@ to a minimum and the implementation as straightforward as possible.
   import { push } from 'notivue'
 
 
+    #With prompt
     push.success({
       title:'Prompt',
       message: "Hi, I'm feeling fckng great",
@@ -61,6 +64,7 @@ to a minimum and the implementation as straightforward as possible.
     });
 
 
+    #As always
     push.promise({title:'Toast','message':'Hi, I'm feeling fckng great'});
   
 
