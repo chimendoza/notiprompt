@@ -54,7 +54,7 @@
             <button class="btn btn-prompt btn-sm"
                 :class="'btn-' + (button.hasOwnProperty('style') ? button.style : 'primary')"
                 v-for="(button, index) in item.props.buttons" @click="button.onclick(item);">
-                {{ button.label }}
+                <i :class="button.icon"></i> {{ button.label }}
             </button>
         </div>
     </div>
