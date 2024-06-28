@@ -2,7 +2,7 @@
 A prompt component for Notivue, the beautiful toast notification system by smastrom.
 
 
-This component uses the composition API and tries to keep the adjustments
+This component uses the options API and tries to keep the adjustments
 to a minimum and the implementation as straightforward as possible.
 
 
